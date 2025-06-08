@@ -9,7 +9,7 @@ function Header(){
           </div>
 
           <picture>
-            <img src="../assets/images/logo.svg" alt="Logo" />
+            <img src="assets/images/logo.svg" alt="Logo" />
           </picture>
 
         </header>
