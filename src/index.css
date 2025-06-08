@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@font-face {
+  src: url('https://fonts.google.com/specimen/DM+Sans');
+  font-family: "DMSans";
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 18px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme{
+
+  /* Typography */
+  --text-DMSans: "DMSans";
+  
+  /* = Colors = */
+
+  /* Primary */
+  --color-red500: hsl(10, 79%, 65%); 
+  --color-blue300: hsl(186, 34%, 65%);
+
+  /* Neutral */
+  --color-Brown950: hsl(25, 47%, 15%);
+  --color-brown400: hsl(28, 10%, 53%);
+  --color-red100: hsl(26, 66%, 93%);
+}
+
+/* Colors
+
+Primary
+
+- Red 500: hsl(10, 79%, 65%)
+- Blue 300: hsl(186, 34%, 65%)
+
+Neutral
+
+- Brown 950: hsl(25, 47%, 15%)
+- Brown 400: hsl(28, 10%, 53%)
+- Red 100: hsl(26, 66%, 93%)
+
+Typography
+
+Body Copy
+
+- Font size: 18px
+
+Font
+
+- Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
+- Weights: 400, 700 */
